@@ -24,14 +24,14 @@ knitr::opts_chunk$set(echo = TRUE)
 Dalam modul visualisasi ini, Anda akan menggunakan data `evals` dan paket `ggplot2`. Aktifkanlah paket untuk mengimpor data dan paket `ggplot2`!
 
 ```{r}
-___
-___
+library(ggplot2)
 ```
 
 Sekarang impor dataset `evals` melalui pranala "https://www.openintro.org/stat/data/evals.csv". Simpan obyek data tersebut dengan nama `evals`. (Petunjuk: `?read_csv`)
 
 ```{r}
-evals <- read_csv("___")
+library(readr)
+evals <- read_csv("https://www.openintro.org/stat/data/evals.csv")
 evals
 ```
 
